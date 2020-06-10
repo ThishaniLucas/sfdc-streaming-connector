@@ -1,0 +1,12 @@
+[project]
+org-name= "thishani"
+version= "0.1.0"
+
+[dependencies]
+
+[platform]
+target = "java8"
+
+  [[platform.libraries]]
+  module = "sfdc"
+  path = "../emp-wrapper/target/emp-wrapper-1.0.0.jar"
